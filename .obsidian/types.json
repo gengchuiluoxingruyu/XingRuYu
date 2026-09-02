@@ -16,6 +16,7 @@
     "week": "text",
     "year": "text",
     "day": "date",
-    "date": "date"
+    "date": "date",
+    "unit": "number"
   }
 }

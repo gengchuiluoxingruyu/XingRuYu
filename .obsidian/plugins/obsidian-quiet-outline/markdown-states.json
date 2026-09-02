@@ -101,7 +101,7 @@
         "ch": 0
       }
     },
-    "scroll": 0,
+    "scroll": 6.423523472993438,
     "expandedKeys": []
   },
   "Canvas/Novel Info.md": {
@@ -119,24 +119,24 @@
   "Vocabulary/未命名.md": {
     "cursor": {
       "from": {
-        "line": 36,
+        "line": 35,
         "ch": 18
       },
       "to": {
-        "line": 36,
+        "line": 35,
         "ch": 18
       }
     },
-    "scroll": 0.46875
+    "scroll": 0
   },
   "Templates/Logs/DailyLogs/Daily.md": {
     "cursor": {
       "from": {
-        "line": 11,
+        "line": 44,
         "ch": 0
       },
       "to": {
-        "line": 11,
+        "line": 44,
         "ch": 0
       }
     },
@@ -145,15 +145,15 @@
   "Templates/Logs/WeeklyLogs/Weekly.md": {
     "cursor": {
       "from": {
-        "line": 15,
+        "line": 51,
         "ch": 0
       },
       "to": {
-        "line": 15,
+        "line": 51,
         "ch": 0
       }
     },
-    "scroll": 26.336588541666668
+    "scroll": 0
   },
   "Logs/DailyLogs/Invalid date.md": {
     "cursor": {
@@ -261,5 +261,106 @@
       }
     },
     "scroll": 72.37646498332539
+  },
+  "Templates/Vocabulary/Vocabulary.md": {
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 11
+      },
+      "to": {
+        "line": 11,
+        "ch": 11
+      }
+    },
+    "scroll": 0
+  },
+  "Templates/Article/Article.md": {
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    }
+  },
+  "Article/未命名.md": {
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    }
+  },
+  "Vocabulary/thousand.md": {
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Article/Unti1.md": {
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    }
+  },
+  "Vocabulary/wolf.md": {
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Vocabulary/probably.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 43
+      },
+      "to": {
+        "line": 26,
+        "ch": 43
+      }
+    },
+    "scroll": 1.9376770538243626
+  },
+  "Logs/DailyLogs/2026-09-02.md": {
+    "cursor": {
+      "from": {
+        "line": 45,
+        "ch": 33
+      },
+      "to": {
+        "line": 45,
+        "ch": 33
+      }
+    },
+    "scroll": 0
   }
 }

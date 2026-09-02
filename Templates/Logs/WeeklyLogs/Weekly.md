@@ -1,15 +1,15 @@
 ---
+type:
 date:
 week:
 year:
 start_date:
 end_date:
-status:
 highlights:
+status: 修稿中
 tags:
   - weekly-note
   - review
-type:
 ---
 # {{title}}
 
@@ -49,4 +49,3 @@ type:
 - 这周我花了多少时间在"真正重要的事"上？
   
 - 如果给这周起个标题，会叫什么？
-

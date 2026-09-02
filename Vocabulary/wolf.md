@@ -1,19 +1,19 @@
 ---
 type: vocabulary
-vocabulary:
-paraphrase:
-part of speech:
-status: 修稿中
+vocabulary: wolf
+part of speech: 名词
 tags:
   - vocabulary
   - word
+status: 修稿中
+paraphrase: 狼
 ---
 
-# {{title}}
+# 未命名
 
 ## 释义
 
-
+A large wild animal of the dog family, that lives in groups.
 
 ## 搭配 / 用法
 
@@ -24,7 +24,7 @@ tags:
 - 反义词：
 
 ## 例句
-- 
+- A pack of wolves 一群狼
 
 ## 词根 / 构词法
 
@@ -35,4 +35,4 @@ tags:
 
 
 ## 复习记录
-- {{date}} 初次学习
+- 2026年09月02日 初次学习
