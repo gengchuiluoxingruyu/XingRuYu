@@ -101,7 +101,8 @@
         "ch": 0
       }
     },
-    "scroll": 0
+    "scroll": 0,
+    "expandedKeys": []
   },
   "Canvas/Novel Info.md": {
     "cursor": {
