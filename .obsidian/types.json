@@ -1,0 +1,21 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "priority": "text",
+    "mood_morning": "number",
+    "mood_noon": "number",
+    "mood_night": "number",
+    "efficiency": "number",
+    "focus_hours": "number",
+    "mood": "text",
+    "rating": "number",
+    "date_from": "date",
+    "date_to": "date",
+    "week": "text",
+    "year": "text",
+    "day": "date",
+    "date": "date"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "collapse-tree",
+  "name": "Collapse Tree",
+  "version": "2.3.8",
+  "minAppVersion": "0.15.0",
+  "description": "可视化文件目录图谱——树状节点、Canvas 渲染、折叠展开、快捷键调用",
+  "author": "Obsidianer",
+  "isDesktopOnly": false
+}

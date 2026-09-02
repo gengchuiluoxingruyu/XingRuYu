@@ -1,0 +1,204 @@
+{
+  "startOnMonday": true,
+  "showLunar": true,
+  "showFestivals": true,
+  "yearLunarFontSize": 10,
+  "monthLunarFontSize": 10,
+  "solarFestivalColor": "#e74c3c",
+  "lunarFestivalColor": "#e8a041",
+  "solarTermColor": "#52c41a",
+  "globalTaskFilter": "🎯 ",
+  "enabledTaskFormats": [
+    "tasks"
+  ],
+  "showGlobalFilterInTaskText": true,
+  "dateFilterField": "dueDate",
+  "enableDailyNote": true,
+  "dayViewLayout": "horizontal",
+  "dailyNotePath": "DailyNotes",
+  "dailyNoteNameFormat": "yyyy-MM-dd",
+  "followObsidianDailyNote": true,
+  "monthViewTaskLimit": 3,
+  "yearShowTaskCount": true,
+  "yearHeatmapEnabled": true,
+  "yearHeatmapPalette": "blue",
+  "yearHeatmap3DEnabled": 2,
+  "taskNotePath": "Tasks",
+  "taskStatuses": [
+    {
+      "key": "todo",
+      "symbol": " ",
+      "name": "待办",
+      "description": "待办任务",
+      "lightColors": {
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#333333"
+      },
+      "darkColors": {
+        "backgroundColor": "#2d333b",
+        "textColor": "#adbac7"
+      },
+      "isDefault": true
+    },
+    {
+      "key": "done",
+      "symbol": "x",
+      "name": "已完成",
+      "description": "已完成任务",
+      "lightColors": {
+        "backgroundColor": "#52c41a",
+        "textColor": "#FFFFFF"
+      },
+      "darkColors": {
+        "backgroundColor": "#3c8524",
+        "textColor": "#e6e6e6"
+      },
+      "isDefault": true
+    },
+    {
+      "key": "important",
+      "symbol": "!",
+      "name": "重要",
+      "description": "重要任务",
+      "lightColors": {
+        "backgroundColor": "#ff4d4f",
+        "textColor": "#FFFFFF"
+      },
+      "darkColors": {
+        "backgroundColor": "#cc3a3c",
+        "textColor": "#ffe6e6"
+      },
+      "isDefault": false
+    },
+    {
+      "key": "canceled",
+      "symbol": "-",
+      "name": "已取消",
+      "description": "已取消任务",
+      "lightColors": {
+        "backgroundColor": "#d9d9d9",
+        "textColor": "#666666"
+      },
+      "darkColors": {
+        "backgroundColor": "#4a525c",
+        "textColor": "#8b949e"
+      },
+      "isDefault": false
+    },
+    {
+      "key": "in_progress",
+      "symbol": "/",
+      "name": "进行中",
+      "description": "进行中任务",
+      "lightColors": {
+        "backgroundColor": "#faad14",
+        "textColor": "#FFFFFF"
+      },
+      "darkColors": {
+        "backgroundColor": "#c78a0f",
+        "textColor": "#fff5e6"
+      },
+      "isDefault": false
+    },
+    {
+      "key": "question",
+      "symbol": "?",
+      "name": "有疑问",
+      "description": "有疑问任务",
+      "lightColors": {
+        "backgroundColor": "#ffc069",
+        "textColor": "#333333"
+      },
+      "darkColors": {
+        "backgroundColor": "#cc9a54",
+        "textColor": "#ffe6cc"
+      },
+      "isDefault": false
+    },
+    {
+      "key": "start",
+      "symbol": "n",
+      "name": "已开始",
+      "description": "已开始任务",
+      "lightColors": {
+        "backgroundColor": "#40a9ff",
+        "textColor": "#FFFFFF"
+      },
+      "darkColors": {
+        "backgroundColor": "#3387cc",
+        "textColor": "#e6f3ff"
+      },
+      "isDefault": false
+    }
+  ],
+  "taskSortField": "dueDate",
+  "taskSortOrder": "asc",
+  "defaultView": "month",
+  "dailyNoteTemplatePath": "",
+  "defaultTaskPriority": "medium",
+  "enableDebugMode": true,
+  "showViewNavButtonText": false,
+  "timezoneOffset": null,
+  "timeFormat": "24h",
+  "recurringTaskDisplayLimit": 5,
+  "language": "system",
+  "taskViewSortField": "dueDate",
+  "taskViewSortOrder": "asc",
+  "taskViewSelectedStatuses": [
+    "todo"
+  ],
+  "taskViewSelectedTags": [],
+  "taskViewTagOperator": "OR",
+  "taskViewTimeFieldFilter": "dueDate",
+  "taskViewDateRangeMode": "day",
+  "dayViewSortField": "dueDate",
+  "dayViewSortOrder": "asc",
+  "dayViewSelectedStatuses": [],
+  "dayViewSelectedTags": [],
+  "dayViewTagOperator": "OR",
+  "weekViewSortField": "priority",
+  "weekViewSortOrder": "desc",
+  "weekViewSelectedStatuses": [
+    "todo"
+  ],
+  "weekViewSelectedTags": [],
+  "weekViewTagOperator": "OR",
+  "weekViewShowCheckbox": true,
+  "weekViewShowTags": true,
+  "weekViewShowPriority": false,
+  "weekViewShowTicktick": false,
+  "monthViewSortField": "dueDate",
+  "monthViewSortOrder": "asc",
+  "monthViewSelectedStatuses": [
+    "todo"
+  ],
+  "monthViewSelectedTags": [],
+  "monthViewTagOperator": "OR",
+  "monthViewShowCheckbox": true,
+  "monthViewShowTags": true,
+  "monthViewShowPriority": false,
+  "monthViewShowTicktick": false,
+  "sidebarShowCheckbox": true,
+  "sidebarShowTags": true,
+  "sidebarShowPriority": false,
+  "sidebarShowTicktick": false,
+  "sidebarShowFileLocation": false,
+  "sidebarShowDueDate": true,
+  "yearViewSelectedTags": [],
+  "yearViewTagOperator": "OR",
+  "ganttStartField": "startDate",
+  "ganttEndField": "dueDate",
+  "syncConfiguration": {
+    "enabledSources": {},
+    "syncDirection": "bidirectional",
+    "syncInterval": 30,
+    "conflictResolution": "local-win",
+    "feishuSyncTargetFile": "gantt-calendar-feishu-sync.md",
+    "pushFilter": {
+      "enabled": false,
+      "paths": [],
+      "completionStatus": "all",
+      "sinceDate": ""
+    }
+  }
+}

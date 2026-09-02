@@ -1,0 +1,305 @@
+/* Collapse Tree */
+
+.collapse-tree-graph-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--background-primary);
+    position: relative;
+}
+
+/* ======== 浮动工具栏 ======== */
+.ct-floating-toolbar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2000;
+}
+
+.ct-tool-btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    background: var(--background-primary);
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: all 0.15s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.ct-tool-btn:hover {
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
+    border-color: var(--background-modifier-border-hover);
+}
+
+.ct-tool-btn.ct-active {
+    color: var(--text-accent);
+    background: var(--background-modifier-active-hover);
+    border-color: var(--text-accent);
+}
+
+/* ======== 设置面板 ======== */
+.ct-settings-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background: var(--background-primary);
+    border-left: 1px solid var(--background-modifier-border);
+    z-index: 1500;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.theme-dark .ct-settings-panel {
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.ct-panel-header {
+    padding: 12px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.ct-panel-body {
+    padding: 8px;
+}
+
+/* 分区 */
+.ct-section {
+    margin-bottom: 4px;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-border);
+    overflow: hidden;
+}
+
+.ct-section-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    user-select: none;
+    background: var(--background-secondary);
+    transition: background 0.15s ease;
+}
+
+.ct-section-header:hover {
+    background: var(--background-modifier-hover);
+}
+
+.ct-section-arrow {
+    font-size: 10px;
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+.ct-section-arrow.ct-open {
+    transform: rotate(0deg);
+}
+
+.ct-section-arrow:not(.ct-open) {
+    transform: rotate(-90deg);
+}
+
+.ct-section-body {
+    padding: 8px 10px;
+    display: block;
+}
+
+.ct-section-body.ct-collapsed {
+    display: none;
+}
+
+/* 设置行 */
+.ct-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.ct-row-label {
+    color: var(--text-muted);
+    flex-shrink: 0;
+    min-width: 52px;
+}
+
+.ct-select {
+    padding: 2px 4px;
+    font-size: 11px;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    flex: 1;
+    max-width: 120px;
+}
+
+.ct-slider {
+    flex: 1;
+    max-width: 80px;
+}
+
+.ct-slider-val {
+    font-size: 11px;
+    color: var(--text-muted);
+    min-width: 24px;
+    text-align: right;
+}
+
+.ct-act-btn {
+    padding: 3px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.ct-act-btn:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.ct-act-btn.ct-danger {
+    background: #d32f2f;
+    color: #fff;
+    border-color: #d32f2f;
+}
+
+.ct-act-btn.ct-danger:hover {
+    background: #b71c1c;
+}
+
+.ct-act-btn.ct-active {
+    background: var(--interactive-accent);
+    color: #fff;
+    border-color: var(--interactive-accent);
+}
+
+/* Toggle 开关 */
+.ct-toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+}
+
+.ct-toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.ct-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: var(--background-modifier-border);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.ct-toggle-slider::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 3px;
+    bottom: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.ct-toggle:checked + .ct-toggle-slider {
+    background: var(--interactive-accent);
+}
+
+.ct-toggle:checked + .ct-toggle-slider::after {
+    transform: translateX(16px);
+}
+
+/* 滚动条 */
+.ct-settings-panel::-webkit-scrollbar {
+    width: 4px;
+}
+
+.ct-settings-panel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.ct-settings-panel::-webkit-scrollbar-thumb {
+    background: var(--background-modifier-border);
+    border-radius: 2px;
+}
+
+.ct-settings-panel::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* 搜索历史下拉 */
+.ct-search-hist {
+    min-width: 160px;
+}
+
+.ct-search-hist div:hover {
+    background: var(--background-modifier-hover);
+}
+
+.collapse-tree-canvas-area {
+    flex: 1;
+    overflow: auto;
+    position: relative;
+}
+
+.collapse-tree-canvas-area canvas {
+    display: block;
+    cursor: default;
+}
+
+.collapse-tree-tooltip {
+    position: fixed;
+    pointer-events: none;
+    padding: 4px 8px;
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+    font-size: 12px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+.collapse-tree-tooltip.is-visible {
+    opacity: 1;
+}
+
+/* 搜索历史弹层 */
+.collapse-tree-search-hist {
+    min-width: 160px;
+}
+
+.collapse-tree-search-hist div:hover {
+    background: var(--background-modifier-hover);
+}
