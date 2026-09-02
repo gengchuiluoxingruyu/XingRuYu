@@ -19,11 +19,11 @@
     "expandedKeys": [],
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 9
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 2,
         "ch": 0
       }
     }
@@ -101,7 +101,7 @@
         "ch": 0
       }
     },
-    "scroll": 6.423523472993438,
+    "scroll": 0,
     "expandedKeys": []
   },
   "Canvas/Novel Info.md": {
@@ -353,14 +353,14 @@
   "Logs/DailyLogs/2026-09-02.md": {
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 33
+        "line": 35,
+        "ch": 17
       },
       "to": {
-        "line": 45,
-        "ch": 33
+        "line": 35,
+        "ch": 17
       }
     },
-    "scroll": 0
+    "scroll": 30.312611012433393
   }
 }
