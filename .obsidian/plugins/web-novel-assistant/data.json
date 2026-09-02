@@ -381,8 +381,8 @@
       ]
     },
     "2026-09-02": {
-      "focusMs": 169013,
-      "slackMs": 152991,
+      "focusMs": 199017,
+      "slackMs": 162985,
       "addedWords": 5493,
       "hourlyFocus": [
         0,
@@ -399,7 +399,7 @@
         0,
         0,
         0,
-        169013,
+        199017,
         0,
         0,
         0,
@@ -425,7 +425,7 @@
         0,
         0,
         0,
-        152991,
+        162985,
         0,
         0,
         0,
@@ -438,6 +438,6 @@
       ]
     }
   },
-  "corkboardSortMode": "default",
+  "corkboardSortMode": "timeline",
   "loreBoardLayout": "table"
 }
