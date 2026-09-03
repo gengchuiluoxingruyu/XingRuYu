@@ -366,14 +366,14 @@
   "Logs/DailyLogs/2026-09-03.md": {
     "cursor": {
       "from": {
-        "line": 46,
-        "ch": 12
+        "line": 9,
+        "ch": 0
       },
       "to": {
-        "line": 46,
-        "ch": 12
+        "line": 47,
+        "ch": 0
       }
     },
-    "scroll": 0.4453125
+    "scroll": 0
   }
 }
