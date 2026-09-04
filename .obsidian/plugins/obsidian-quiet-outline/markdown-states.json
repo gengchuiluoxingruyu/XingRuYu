@@ -375,5 +375,17 @@
       }
     },
     "scroll": 0
+  },
+  "Logs/DailyLogs/2026-09-04.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    }
   }
 }
