@@ -101,7 +101,7 @@
         "ch": 0
       }
     },
-    "scroll": 0,
+    "scroll": 1.0817307692307692,
     "expandedKeys": []
   },
   "Canvas/Novel Info.md": {
@@ -385,6 +385,19 @@
       "to": {
         "line": 46,
         "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Logs/DailyLogs/2026-09-05.md": {
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 7
+      },
+      "to": {
+        "line": 38,
+        "ch": 7
       }
     },
     "scroll": 0
