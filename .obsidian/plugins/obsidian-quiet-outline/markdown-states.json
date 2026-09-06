@@ -119,15 +119,15 @@
   "Vocabulary/未命名.md": {
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 18
+        "line": 11,
+        "ch": 5
       },
       "to": {
-        "line": 35,
-        "ch": 18
+        "line": 11,
+        "ch": 5
       }
     },
-    "scroll": 0
+    "scroll": 0.38961038961038963
   },
   "Templates/Logs/DailyLogs/Daily.md": {
     "cursor": {
@@ -310,7 +310,7 @@
         "ch": 0
       }
     },
-    "scroll": 0
+    "scroll": 5.376623376623376
   },
   "Article/Unti1.md": {
     "cursor": {
@@ -401,5 +401,17 @@
       }
     },
     "scroll": 3.5859375
+  },
+  "Vocabulary/throw.md": {
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 5
+      },
+      "to": {
+        "line": 11,
+        "ch": 5
+      }
+    }
   }
 }
