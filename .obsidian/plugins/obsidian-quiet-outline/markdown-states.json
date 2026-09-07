@@ -140,7 +140,7 @@
         "ch": 0
       }
     },
-    "scroll": 0
+    "scroll": 29.308466548253403
   },
   "Templates/Logs/WeeklyLogs/Weekly.md": {
     "cursor": {
@@ -442,62 +442,67 @@
   "Log/DailyLogs/2026-09-02.md": {
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 45,
         "ch": 0
       },
       "to": {
-        "line": 9,
+        "line": 45,
         "ch": 0
       }
-    }
+    },
+    "scroll": 30.312611012433393
   },
   "Log/DailyLogs/2026-09-03.md": {
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 46,
         "ch": 0
       },
       "to": {
-        "line": 9,
+        "line": 46,
         "ch": 0
       }
-    }
+    },
+    "scroll": 27.943359375
   },
   "Log/DailyLogs/2026-09-04.md": {
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 18
+        "line": 45,
+        "ch": 24
       },
       "to": {
-        "line": 14,
-        "ch": 18
+        "line": 45,
+        "ch": 24
       }
-    }
+    },
+    "scroll": 31.297809354647722
   },
   "Log/DailyLogs/2026-09-05.md": {
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 45,
+        "ch": 8
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 45,
+        "ch": 8
       }
-    }
+    },
+    "scroll": 31.297809354647722
   },
   "Log/DailyLogs/2026-09-06.md": {
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 43,
+        "ch": 10
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 43,
+        "ch": 10
       }
-    }
+    },
+    "scroll": 29.308466548253403
   },
   "epub-books/anno/《月亮与六便士 (威廉．萨默塞特．毛姆 (William Somerset Maugham)) (z-library.sk, 1lib.sk, z-lib.sk)》摘录.md": {
     "cursor": {
@@ -547,5 +552,31 @@
       }
     },
     "scroll": 116.4765625
+  },
+  "2026-09-07.md": {
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 33
+      },
+      "to": {
+        "line": 27,
+        "ch": 33
+      }
+    },
+    "scroll": 4.828125
+  },
+  "Log/DailyLogs/2026-09-07.md": {
+    "scroll": 31.297809354647722,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 12
+      },
+      "to": {
+        "line": 42,
+        "ch": 12
+      }
+    }
   }
 }
