@@ -17,6 +17,12 @@
     "year": "text",
     "day": "date",
     "date": "date",
-    "unit": "number"
+    "unit": "number",
+    "date_started": "date",
+    "date_finished": "date",
+    "published": "date",
+    "date_added": "date",
+    "series_index": "number",
+    "calibre_id": "number"
   }
 }

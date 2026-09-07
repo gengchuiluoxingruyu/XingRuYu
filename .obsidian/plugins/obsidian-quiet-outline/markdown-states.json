@@ -101,7 +101,7 @@
         "ch": 0
       }
     },
-    "scroll": 3.4134615384615383,
+    "scroll": 5.011622276029056,
     "expandedKeys": []
   },
   "Canvas/Novel Info.md": {
@@ -488,6 +488,42 @@
     }
   },
   "Log/DailyLogs/2026-09-06.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    }
+  },
+  "epub-books/anno/《月亮与六便士 (威廉．萨默塞特．毛姆 (William Somerset Maugham)) (z-library.sk, 1lib.sk, z-lib.sk)》摘录.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    }
+  },
+  "epub-books/anno/《月亮与六便士》摘录.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    }
+  },
+  "epub-books/anno/《月亮与六便士 》摘录.md": {
     "cursor": {
       "from": {
         "line": 9,
