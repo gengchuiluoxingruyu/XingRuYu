@@ -17,7 +17,7 @@ Thumbs.db
 .obsidian/starred.json
 
 # 忽略插件的缓存和数据文件 (可选，但推荐)
-# .obsidian/plugins/some-plugin/data.json
+.obsidian/plugins/some-plugin/data.json
 .obsidian/plugins/recent-files-obsidian/data.json
 
 # 忽略垃圾箱文件夹
