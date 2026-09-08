@@ -7,7 +7,6 @@
   "obsidian-git",
   "easy-typing-obsidian",
   "calendar",
-  "code-space",
   "obsidian-image-auto-upload-plugin",
   "obsidian-hover-editor",
   "keyboard-analyzer",
@@ -16,5 +15,6 @@
   "obsidian-quiet-outline",
   "obsidian-emoji-toolbar",
   "callout-manager",
-  "rag-chat"
+  "rag-chat",
+  "code-space"
 ]

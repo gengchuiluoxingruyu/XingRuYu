@@ -723,6 +723,6 @@
       ]
     }
   },
-  "corkboardSortMode": "timeline",
+  "corkboardSortMode": "default",
   "loreBoardLayout": "table"
 }

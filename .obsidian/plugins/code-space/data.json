@@ -1,5 +1,5 @@
 {
-  "extensions": "py, c, cpp, h, hpp, js, ts, jsx, tsx, json, mjs, cjs, css, scss, sass, less, html, htm, rs, go, java, sql, php, rb, sh, yaml, xml, cs, yml, epub",
+  "extensions": "py, c, cpp, h, hpp, js, ts, jsx, tsx, json, mjs, cjs, css, scss, sass, less, html, htm, rs, go, java, sql, php, rb, sh, yaml, xml, cs, yml, pdf",
   "showLineNumbers": true,
   "editorFontSize": 18,
   "embedFontSize": 15,
