@@ -666,7 +666,7 @@
       ]
     },
     "2026-09-07": {
-      "focusMs": 0,
+      "focusMs": 1014,
       "slackMs": 0,
       "addedWords": 244,
       "hourlyFocus": [
@@ -693,7 +693,7 @@
         0,
         0,
         0,
-        0
+        1014
       ],
       "hourlySlack": [
         0,
