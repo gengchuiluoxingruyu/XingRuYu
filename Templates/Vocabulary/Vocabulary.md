@@ -1,7 +1,5 @@
 ---
 type: vocabulary
-vocabulary:
-paraphrase:
 part of speech:
 status: 修稿中
 tags:

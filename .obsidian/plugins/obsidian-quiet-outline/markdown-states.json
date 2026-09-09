@@ -119,12 +119,12 @@
   "Vocabulary/未命名.md": {
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 5
+        "line": 35,
+        "ch": 18
       },
       "to": {
-        "line": 11,
-        "ch": 5
+        "line": 35,
+        "ch": 18
       }
     },
     "scroll": 0.38961038961038963
@@ -265,12 +265,12 @@
   "Templates/Vocabulary/Vocabulary.md": {
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 11
+        "line": 13,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 11
+        "line": 13,
+        "ch": 0
       }
     },
     "scroll": 0
@@ -302,15 +302,15 @@
   "Vocabulary/thousand.md": {
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 15,
+        "ch": 2
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 15,
+        "ch": 2
       }
     },
-    "scroll": 5.376623376623376
+    "scroll": 0
   },
   "Article/Unti1.md": {
     "cursor": {
@@ -327,12 +327,12 @@
   "Vocabulary/wolf.md": {
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 15,
+        "ch": 1
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 15,
+        "ch": 1
       }
     },
     "scroll": 0
@@ -340,15 +340,15 @@
   "Vocabulary/probably.md": {
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 43
+        "line": 15,
+        "ch": 6
       },
       "to": {
-        "line": 26,
-        "ch": 43
+        "line": 15,
+        "ch": 6
       }
     },
-    "scroll": 1.9376770538243626
+    "scroll": 0
   },
   "Logs/DailyLogs/2026-09-02.md": {
     "cursor": {
@@ -405,12 +405,12 @@
   "Vocabulary/throw.md": {
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 5
+        "line": 15,
+        "ch": 3
       },
       "to": {
-        "line": 11,
-        "ch": 5
+        "line": 15,
+        "ch": 3
       }
     }
   },
@@ -591,5 +591,56 @@
       }
     },
     "scroll": 15.332149200710479
+  },
+  "Vocabulary/away.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 65
+      },
+      "to": {
+        "line": 26,
+        "ch": 65
+      }
+    },
+    "scroll": 19.8046875
+  },
+  "Vocabulary/village.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 72
+      },
+      "to": {
+        "line": 26,
+        "ch": 72
+      }
+    },
+    "scroll": 0
+  },
+  "Vocabulary/time.md": {
+    "scroll": 4.137071651090342,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 5
+      },
+      "to": {
+        "line": 11,
+        "ch": 5
+      }
+    }
+  },
+  "Log/DailyLogs/2026-09-08.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    }
   }
 }

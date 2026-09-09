@@ -1,7 +1,5 @@
 ---
 type: vocabulary
-vocabulary: throw
-paraphrase: 丢，扔
 part of speech: 动词
 status: 修稿中
 tags:
@@ -12,6 +10,8 @@ tags:
 # 未命名
 
 ## 释义
+
+丢，扔
 
 Used to say that sth. Is likely to happen or to be true.l
 

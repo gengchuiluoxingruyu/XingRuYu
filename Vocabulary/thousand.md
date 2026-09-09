@@ -1,7 +1,5 @@
 ---
 type: vocabulary
-vocabulary: thousand
-paraphrase: 一千
 part of speech: 名词
 status: 修稿中
 tags:
@@ -12,6 +10,8 @@ tags:
 # 未命名
 
 ## 释义
+
+一千
 
 1000
 

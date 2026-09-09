@@ -46,123 +46,116 @@
     },
     {
       "path": "Vocabulary/throw.md",
-      "mtime": 1788704567551,
+      "mtime": 1788963341192,
       "chunks": [
         {
-          "text": "--- type: vocabulary vocabulary: throw paraphrase: 丢，扔 part of speech: 动词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 Used to say that sth. Is likely to happen or to be true.l ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - He threw the keys onto the table. 他把钥匙扔到了桌子上。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月06日 初次学习",
+          "text": "--- type: vocabulary part of speech: 动词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 丢，扔 Used to say that sth. Is likely to happen or to be true.l ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - He threw the keys onto the table. 他把钥匙扔到了桌子上。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月06日 初次学习",
           "terms": {
-            "2026": 0.04,
-            "type": 0.04,
-            "vocabulary": 0.12,
-            "throw": 0.04,
-            "paraphrase": 0.04,
-            "part": 0.04,
-            "speech": 0.04,
-            "status": 0.04,
-            "tags": 0.04,
-            "word": 0.04,
-            "used": 0.04,
-            "say": 0.04,
-            "that": 0.04,
-            "sth": 0.04,
-            "likely": 0.04,
-            "happen": 0.04,
-            "true": 0.04,
-            "threw": 0.04,
-            "the": 0.08,
-            "keys": 0.04,
-            "onto": 0.04,
-            "table": 0.04
+            "2026": 0.045454545454545456,
+            "type": 0.045454545454545456,
+            "vocabulary": 0.09090909090909091,
+            "part": 0.045454545454545456,
+            "speech": 0.045454545454545456,
+            "status": 0.045454545454545456,
+            "tags": 0.045454545454545456,
+            "word": 0.045454545454545456,
+            "used": 0.045454545454545456,
+            "say": 0.045454545454545456,
+            "that": 0.045454545454545456,
+            "sth": 0.045454545454545456,
+            "likely": 0.045454545454545456,
+            "happen": 0.045454545454545456,
+            "true": 0.045454545454545456,
+            "threw": 0.045454545454545456,
+            "the": 0.09090909090909091,
+            "keys": 0.045454545454545456,
+            "onto": 0.045454545454545456,
+            "table": 0.045454545454545456
           }
         }
       ]
     },
     {
       "path": "Vocabulary/wolf.md",
-      "mtime": 1788361092079,
+      "mtime": 1788963361636,
       "chunks": [
         {
-          "text": "--- type: vocabulary vocabulary: wolf part of speech: 名词 tags: - vocabulary - word status: 修稿中 paraphrase: 狼 --- # 未命名 ## 释义 A large wild animal of the dog family, that lives in groups. ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - A pack of wolves 一群狼 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月02日 初次学习",
+          "text": "--- type: vocabulary part of speech: 名词 tags: - vocabulary - word status: 修稿中 --- # 未命名 ## 释义 狼 A large wild animal of the dog family, that lives in groups. ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - A pack of wolves 一群狼 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月02日 初次学习",
           "terms": {
-            "2026": 0.043478260869565216,
-            "type": 0.043478260869565216,
-            "vocabulary": 0.13043478260869565,
-            "wolf": 0.043478260869565216,
-            "part": 0.043478260869565216,
-            "speech": 0.043478260869565216,
-            "tags": 0.043478260869565216,
-            "word": 0.043478260869565216,
-            "status": 0.043478260869565216,
-            "paraphrase": 0.043478260869565216,
-            "large": 0.043478260869565216,
-            "wild": 0.043478260869565216,
-            "animal": 0.043478260869565216,
-            "the": 0.043478260869565216,
-            "dog": 0.043478260869565216,
-            "family": 0.043478260869565216,
-            "that": 0.043478260869565216,
-            "lives": 0.043478260869565216,
-            "groups": 0.043478260869565216,
-            "pack": 0.043478260869565216,
-            "wolves": 0.043478260869565216
+            "2026": 0.05,
+            "type": 0.05,
+            "vocabulary": 0.1,
+            "part": 0.05,
+            "speech": 0.05,
+            "tags": 0.05,
+            "word": 0.05,
+            "status": 0.05,
+            "large": 0.05,
+            "wild": 0.05,
+            "animal": 0.05,
+            "the": 0.05,
+            "dog": 0.05,
+            "family": 0.05,
+            "that": 0.05,
+            "lives": 0.05,
+            "groups": 0.05,
+            "pack": 0.05,
+            "wolves": 0.05
           }
         }
       ]
     },
     {
       "path": "Vocabulary/thousand.md",
-      "mtime": 1788361086374,
+      "mtime": 1788963329249,
       "chunks": [
         {
-          "text": "--- type: vocabulary vocabulary: thousand paraphrase: 一千 part of speech: 名词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 1000 ## 搭配 / 用法 Thousands of 数以千计的，成千上万的 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - Two thousands of people were there. 那里有两千人。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月02日 初次学习",
+          "text": "--- type: vocabulary part of speech: 名词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 一千 1000 ## 搭配 / 用法 Thousands of 数以千计的，成千上万的 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - Two thousands of people were there. 那里有两千人。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月02日 初次学习",
           "terms": {
-            "1000": 0.05263157894736842,
-            "2026": 0.05263157894736842,
-            "type": 0.05263157894736842,
-            "vocabulary": 0.15789473684210525,
-            "thousand": 0.05263157894736842,
-            "paraphrase": 0.05263157894736842,
-            "part": 0.05263157894736842,
-            "speech": 0.05263157894736842,
-            "status": 0.05263157894736842,
-            "tags": 0.05263157894736842,
-            "word": 0.05263157894736842,
-            "thousands": 0.10526315789473684,
-            "two": 0.05263157894736842,
-            "people": 0.05263157894736842,
-            "were": 0.05263157894736842,
-            "there": 0.05263157894736842
+            "1000": 0.0625,
+            "2026": 0.0625,
+            "type": 0.0625,
+            "vocabulary": 0.125,
+            "part": 0.0625,
+            "speech": 0.0625,
+            "status": 0.0625,
+            "tags": 0.0625,
+            "word": 0.0625,
+            "thousands": 0.125,
+            "two": 0.0625,
+            "people": 0.0625,
+            "were": 0.0625,
+            "there": 0.0625
           }
         }
       ]
     },
     {
       "path": "Vocabulary/probably.md",
-      "mtime": 1788361045086,
+      "mtime": 1788963307493,
       "chunks": [
         {
-          "text": "--- type: vocabulary vocabulary: probably paraphrase: 大概，很可能 part of speech: 副词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 Used to say that sth. Is likely to happen or to be true. ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - We would probably be bored to death. 我们可能会无聊至极。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月02日 初次学习",
+          "text": "--- type: vocabulary part of speech: 副词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 大概，很可能 Used to say that sth. Is likely to happen or to be true. ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - We would probably be bored to death. 我们可能会无聊至极。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月02日 初次学习",
           "terms": {
-            "2026": 0.043478260869565216,
-            "type": 0.043478260869565216,
-            "vocabulary": 0.13043478260869565,
-            "probably": 0.08695652173913043,
-            "paraphrase": 0.043478260869565216,
-            "part": 0.043478260869565216,
-            "speech": 0.043478260869565216,
-            "status": 0.043478260869565216,
-            "tags": 0.043478260869565216,
-            "word": 0.043478260869565216,
-            "used": 0.043478260869565216,
-            "say": 0.043478260869565216,
-            "that": 0.043478260869565216,
-            "sth": 0.043478260869565216,
-            "likely": 0.043478260869565216,
-            "happen": 0.043478260869565216,
-            "true": 0.043478260869565216,
-            "would": 0.043478260869565216,
-            "bored": 0.043478260869565216,
-            "death": 0.043478260869565216
+            "2026": 0.05,
+            "type": 0.05,
+            "vocabulary": 0.1,
+            "part": 0.05,
+            "speech": 0.05,
+            "status": 0.05,
+            "tags": 0.05,
+            "word": 0.05,
+            "used": 0.05,
+            "say": 0.05,
+            "that": 0.05,
+            "sth": 0.05,
+            "likely": 0.05,
+            "happen": 0.05,
+            "true": 0.05,
+            "would": 0.05,
+            "probably": 0.05,
+            "bored": 0.05,
+            "death": 0.05
           }
         }
       ]
@@ -231,21 +224,20 @@
     },
     {
       "path": "Templates/Vocabulary/Vocabulary.md",
-      "mtime": 1788361032494,
+      "mtime": 1788963421183,
       "chunks": [
         {
-          "text": "--- type: vocabulary vocabulary: paraphrase: part of speech: status: 修稿中 tags: - vocabulary - word --- # {{title}} ## 释义 ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - {{date}} 初次学习",
+          "text": "--- type: vocabulary part of speech: status: 修稿中 tags: - vocabulary - word --- # {{title}} ## 释义 ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - {{date}} 初次学习",
           "terms": {
-            "type": 0.08333333333333333,
-            "vocabulary": 0.25,
-            "paraphrase": 0.08333333333333333,
-            "part": 0.08333333333333333,
-            "speech": 0.08333333333333333,
-            "status": 0.08333333333333333,
-            "tags": 0.08333333333333333,
-            "word": 0.08333333333333333,
-            "title": 0.08333333333333333,
-            "date": 0.08333333333333333
+            "type": 0.1,
+            "vocabulary": 0.2,
+            "part": 0.1,
+            "speech": 0.1,
+            "status": 0.1,
+            "tags": 0.1,
+            "word": 0.1,
+            "title": 0.1,
+            "date": 0.1
           }
         }
       ]
@@ -860,6 +852,99 @@
             "tags": 0.08333333333333333,
             "note": 0.08333333333333333,
             "opc": 0.08333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "path": "Vocabulary/away.md",
+      "mtime": 1788963713196,
+      "chunks": [
+        {
+          "text": "--- type: vocabulary part of speech: 副词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 去别处，朝另一个方向 To a different place or in a different direction ## 搭配 / 用法 Throw away 扔掉，丢弃，抛弃 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - The bright light made the little girl look away. 强光让那个小女孩移开了视线。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月09日 初次学习",
+          "terms": {
+            "2026": 0.041666666666666664,
+            "type": 0.041666666666666664,
+            "vocabulary": 0.08333333333333333,
+            "part": 0.041666666666666664,
+            "speech": 0.041666666666666664,
+            "status": 0.041666666666666664,
+            "tags": 0.041666666666666664,
+            "word": 0.041666666666666664,
+            "different": 0.08333333333333333,
+            "place": 0.041666666666666664,
+            "direction": 0.041666666666666664,
+            "throw": 0.041666666666666664,
+            "away": 0.08333333333333333,
+            "the": 0.08333333333333333,
+            "bright": 0.041666666666666664,
+            "light": 0.041666666666666664,
+            "made": 0.041666666666666664,
+            "little": 0.041666666666666664,
+            "girl": 0.041666666666666664,
+            "look": 0.041666666666666664
+          }
+        }
+      ]
+    },
+    {
+      "path": "Vocabulary/village.md",
+      "mtime": 1788963808698,
+      "chunks": [
+        {
+          "text": "--- type: vocabulary part of speech: 名词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 乡村，村庄 A very small town lacated in a country area. ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 - The village is famous for its rich natural resources.这座村庄以其丰富的自然资源而闻名。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月09日 初次学习",
+          "terms": {
+            "2026": 0.043478260869565216,
+            "type": 0.043478260869565216,
+            "vocabulary": 0.08695652173913043,
+            "part": 0.043478260869565216,
+            "speech": 0.043478260869565216,
+            "status": 0.043478260869565216,
+            "tags": 0.043478260869565216,
+            "word": 0.043478260869565216,
+            "very": 0.043478260869565216,
+            "small": 0.043478260869565216,
+            "town": 0.043478260869565216,
+            "lacated": 0.043478260869565216,
+            "country": 0.043478260869565216,
+            "area": 0.043478260869565216,
+            "the": 0.043478260869565216,
+            "village": 0.043478260869565216,
+            "famous": 0.043478260869565216,
+            "for": 0.043478260869565216,
+            "its": 0.043478260869565216,
+            "rich": 0.043478260869565216,
+            "natural": 0.043478260869565216,
+            "resources": 0.043478260869565216
+          }
+        }
+      ]
+    },
+    {
+      "path": "Vocabulary/time.md",
+      "mtime": 1788963934533,
+      "chunks": [
+        {
+          "text": "--- type: vocabulary part of speech: 名词 status: 修稿中 tags: - vocabulary - word --- # 未命名 ## 释义 时间 What is measured in minutes, hours, days, etc. ## 搭配 / 用法 ## 近义词 & 反义词 - 近义词： - 反义词： ## 例句 I have no time to finish my work.我没时间完成我的工作。 ## 词根 / 构词法 ## 记忆方法 ## 复习记录 - 2026年09月09日 初次学习",
+          "terms": {
+            "2026": 0.05263157894736842,
+            "type": 0.05263157894736842,
+            "vocabulary": 0.10526315789473684,
+            "part": 0.05263157894736842,
+            "speech": 0.05263157894736842,
+            "status": 0.05263157894736842,
+            "tags": 0.05263157894736842,
+            "word": 0.05263157894736842,
+            "what": 0.05263157894736842,
+            "measured": 0.05263157894736842,
+            "minutes": 0.05263157894736842,
+            "hours": 0.05263157894736842,
+            "days": 0.05263157894736842,
+            "etc": 0.05263157894736842,
+            "have": 0.05263157894736842,
+            "time": 0.05263157894736842,
+            "finish": 0.05263157894736842,
+            "work": 0.05263157894736842
           }
         }
       ]

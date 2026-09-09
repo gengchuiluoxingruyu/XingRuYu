@@ -11,20 +11,20 @@ tags:
 
 ## 释义
 
-大概，很可能
+去别处，朝另一个方向
 
-Used to say that sth. Is likely to happen or to be true.
+To a different place or in a different direction
 
 ## 搭配 / 用法
 
-
+Throw away 扔掉，丢弃，抛弃
 
 ## 近义词 & 反义词
 - 近义词：
 - 反义词：
 
 ## 例句
-- We would probably be bored to death. 我们可能会无聊至极。
+- The bright light made the little girl look away. 强光让那个小女孩移开了视线。
 
 ## 词根 / 构词法
 
@@ -35,4 +35,4 @@ Used to say that sth. Is likely to happen or to be true.
 
 
 ## 复习记录
-- 2026年09月02日 初次学习
+- 2026年09月09日 初次学习

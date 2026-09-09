@@ -1,17 +1,17 @@
 ---
 type: vocabulary
-vocabulary: wolf
 part of speech: 名词
 tags:
   - vocabulary
   - word
 status: 修稿中
-paraphrase: 狼
 ---
 
 # 未命名
 
 ## 释义
+
+狼
 
 A large wild animal of the dog family, that lives in groups.
 
