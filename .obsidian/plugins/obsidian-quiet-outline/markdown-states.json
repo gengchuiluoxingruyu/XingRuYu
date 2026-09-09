@@ -132,15 +132,15 @@
   "Templates/Logs/DailyLogs/Daily.md": {
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 0
+        "line": 24,
+        "ch": 8
       },
       "to": {
-        "line": 44,
-        "ch": 0
+        "line": 24,
+        "ch": 8
       }
     },
-    "scroll": 29.308466548253403
+    "scroll": 11.9765625
   },
   "Templates/Logs/WeeklyLogs/Weekly.md": {
     "cursor": {
@@ -582,13 +582,14 @@
   "2026-09-08.md": {
     "cursor": {
       "from": {
-        "line": 44,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 44,
+        "line": 46,
         "ch": 0
       }
-    }
+    },
+    "scroll": 15.332149200710479
   }
 }
