@@ -5,6 +5,6 @@
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
   "weeklyNoteTemplate": "Templates/Logs/WeeklyLogs/Weekly",
-  "weeklyNoteFolder": "Logs/WeeklyLogs",
+  "weeklyNoteFolder": "Log/WeeklyLogs/",
   "localeOverride": "system-default"
 }
