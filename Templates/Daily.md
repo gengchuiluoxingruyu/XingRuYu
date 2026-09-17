@@ -1,7 +1,6 @@
 ---
 type:
 weather:
-highlights:
 status: 修稿中
 tags:
   - daily-note
