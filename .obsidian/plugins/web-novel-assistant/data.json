@@ -188,7 +188,9 @@
     "fileName": "Novel Info"
   },
   "homepagePinPosition": "top",
-  "customSortOrder": {},
+  "customSortOrder": {
+    "Log/DailyLogs/__CHAPTER_BLOCK__": 1000
+  },
   "loreFolderName": "Lore",
   "lorePopoverCollapse": false,
   "enableMobileLorePopover": false,
