@@ -7,7 +7,7 @@ tags:
   - word
 ---
 
-# 未命名
+# Thousand
 
 ## 释义
 
@@ -17,7 +17,7 @@ tags:
 
 ## 搭配 / 用法
 
-Thousands of 数以千计的，成千上万的
+Thousands of 数以千计的，成千上万的 
 
 ## 近义词 & 反义词
 - 近义词：

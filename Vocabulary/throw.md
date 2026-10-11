@@ -7,7 +7,7 @@ tags:
   - word
 ---
 
-# 未命名
+# Throw
 
 ## 释义
 

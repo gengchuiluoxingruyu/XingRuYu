@@ -7,11 +7,11 @@
   "easy-typing-obsidian",
   "calendar",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-hover-editor",
   "keyboard-analyzer",
   "obsidian-version-history-diff",
-  "table-editor-obsidian",
   "obsidian-emoji-toolbar",
   "callout-manager",
-  "code-space"
+  "code-space",
+  "table-editor-obsidian",
+  "obsidian-hover-editor"
 ]
