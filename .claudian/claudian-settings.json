@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "normal",
-  "model": "deepseek:deepseek-official/deepseek-flash",
+  "model": "opencode:deepseek/deepseek-flash",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -471,19 +471,22 @@
       "selectedModels": []
     }
   },
-  "settingsProvider": "deepseek",
+  "settingsProvider": "opencode",
   "lastSelectedChatModel": null,
   "inlineEditModel": null,
   "savedProviderModel": {
-    "deepseek": "deepseek:deepseek-official/deepseek-flash"
+    "deepseek": "deepseek:deepseek-official/deepseek-flash",
+    "opencode": "opencode:deepseek/deepseek-flash"
   },
   "savedProviderEffort": {
-    "deepseek": "high"
+    "deepseek": "high",
+    "opencode": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto",
-    "deepseek": "normal"
+    "deepseek": "normal",
+    "opencode": "normal"
   },
   "pendingProviderSessionInvalidations": {},
   "enableAutoScroll": true,
