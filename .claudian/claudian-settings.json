@@ -22,7 +22,9 @@
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
-      "installationMethodsByHost": {},
+      "installationMethodsByHost": {
+        "device-779b13623aa43538a017a9ef7e9d8a22fdb6b5f6db43315ecfeeb280c8b43e16": "native-windows"
+      },
       "wslDistroOverridesByHost": {},
       "enabled": false,
       "outputStyle": null,
@@ -58,7 +60,9 @@
       "selectedModels": []
     },
     "deepseek": {
-      "installationMethodsByHost": {},
+      "installationMethodsByHost": {
+        "device-779b13623aa43538a017a9ef7e9d8a22fdb6b5f6db43315ecfeeb280c8b43e16": "native-windows"
+      },
       "wslDistroOverridesByHost": {},
       "enabled": true,
       "codeMode": true,
@@ -201,7 +205,9 @@
       ]
     },
     "grok": {
-      "installationMethodsByHost": {},
+      "installationMethodsByHost": {
+        "device-779b13623aa43538a017a9ef7e9d8a22fdb6b5f6db43315ecfeeb280c8b43e16": "native-windows"
+      },
       "wslDistroOverridesByHost": {},
       "sessionEnvironmentHash": "",
       "cliPath": "",
@@ -215,21 +221,243 @@
       "selectedModelsByHost": {}
     },
     "opencode": {
-      "installationMethodsByHost": {},
+      "installationMethodsByHost": {
+        "device-779b13623aa43538a017a9ef7e9d8a22fdb6b5f6db43315ecfeeb280c8b43e16": "native-windows"
+      },
       "wslDistroOverridesByHost": {},
       "cliPath": "",
       "cliPathsByHost": {},
-      "enabled": false,
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "thinkingOptionsByModel": {},
-      "visibleModels": [],
-      "selectedModels": []
+      "thinkingOptionsByModel": {
+        "deepseek/deepseek-flash": [
+          {
+            "label": "None",
+            "value": "none"
+          },
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "deepseek/deepseek-v4-pro": [
+          {
+            "label": "None",
+            "value": "none"
+          },
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "opencode/nemotron-3.5-super-vl-free": [
+          {
+            "label": "None",
+            "value": "none"
+          },
+          {
+            "label": "Minimal",
+            "value": "minimal"
+          },
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "xHigh",
+            "value": "xhigh"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "opencode/glm-5.3-flash-free": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "opencode/flint-40b-free": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "xHigh",
+            "value": "xhigh"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "opencode/big-pickle": [],
+        "opencode/beam-free": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "xHigh",
+            "value": "xhigh"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "opencode/deepseek-v4.1-flash-free": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "Default",
+            "value": "default"
+          }
+        ],
+        "opencode/mimo-v2.6-flash-free": [],
+        "opencode/nemotron-3.5-lightning-free": []
+      },
+      "visibleModels": [
+        "deepseek/deepseek-flash",
+        "deepseek/deepseek-v4-pro",
+        "opencode/nemotron-3.5-super-vl-free",
+        "opencode/glm-5.3-flash-free",
+        "opencode/flint-40b-free",
+        "opencode/big-pickle",
+        "opencode/beam-free",
+        "opencode/deepseek-v4.1-flash-free",
+        "opencode/mimo-v2.6-flash-free",
+        "opencode/nemotron-3.5-lightning-free"
+      ],
+      "selectedModels": [
+        {
+          "label": "OpenCode/Flint 40B Free",
+          "rawId": "opencode/flint-40b-free"
+        },
+        {
+          "label": "DeepSeek/DeepSeek V4.1 Flash 1017",
+          "rawId": "deepseek/deepseek-flash"
+        },
+        {
+          "label": "OpenCode/Nemotron 3.5 Super VL Free",
+          "rawId": "opencode/nemotron-3.5-super-vl-free"
+        },
+        {
+          "label": "OpenCode/Beam Free",
+          "rawId": "opencode/beam-free"
+        },
+        {
+          "label": "OpenCode/MiMo-V2.6-Flash Free",
+          "rawId": "opencode/mimo-v2.6-flash-free"
+        },
+        {
+          "label": "OpenCode/DeepSeek V4.1 Flash Free",
+          "rawId": "opencode/deepseek-v4.1-flash-free"
+        },
+        {
+          "label": "OpenCode/GLM-5.3-Flash Free",
+          "rawId": "opencode/glm-5.3-flash-free"
+        },
+        {
+          "label": "DeepSeek/DeepSeek V4 Pro",
+          "rawId": "deepseek/deepseek-v4-pro"
+        },
+        {
+          "label": "OpenCode/Nemotron 3.5 Lightning Free",
+          "rawId": "opencode/nemotron-3.5-lightning-free"
+        },
+        {
+          "label": "OpenCode/Big Pickle",
+          "rawId": "opencode/big-pickle"
+        }
+      ]
     },
     "pi": {
-      "installationMethodsByHost": {},
+      "installationMethodsByHost": {
+        "device-779b13623aa43538a017a9ef7e9d8a22fdb6b5f6db43315ecfeeb280c8b43e16": "native-windows"
+      },
       "wslDistroOverridesByHost": {},
       "cliPath": "",
       "cliPathsByHost": {},
