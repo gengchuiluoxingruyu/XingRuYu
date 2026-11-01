@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "normal",
-  "model": "haiku",
+  "model": "deepseek:deepseek-official/deepseek-flash",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -474,8 +474,12 @@
   "settingsProvider": "deepseek",
   "lastSelectedChatModel": null,
   "inlineEditModel": null,
-  "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderModel": {
+    "deepseek": "deepseek:deepseek-official/deepseek-flash"
+  },
+  "savedProviderEffort": {
+    "deepseek": "high"
+  },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto",
