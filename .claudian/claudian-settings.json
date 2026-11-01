@@ -1,0 +1,274 @@
+{
+  "userName": "",
+  "permissionMode": "normal",
+  "model": "haiku",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "deepseek:deepseek-official/deepseek-flash",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "enabled": false,
+      "outputStyle": null,
+      "promptSuggestions": false,
+      "discoveredOutputStyles": [],
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "visibleModels": [],
+      "modelAliases": {},
+      "environmentVariables": "",
+      "environmentHash": "",
+      "sessionEnvironmentHash": "",
+      "selectedModels": []
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "modelAliases": {},
+      "visibleModels": [],
+      "enableUltraEffort": false,
+      "responseStyle": "pragmatic",
+      "responseVerbosity": "default",
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "sessionEnvironmentHash": "",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "selectedModels": []
+    },
+    "deepseek": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "enabled": true,
+      "codeMode": true,
+      "presetPlugins": "",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "environmentVariables": "",
+      "environmentHash": "",
+      "visibleModels": [
+        "deepseek:deepseek-official/deepseek-flash",
+        "deepseek:deepseek-official/deepseek-v4-pro",
+        "deepseek:deepseek-account/deepseek-flash",
+        "deepseek:deepseek-account/deepseek-v4-pro"
+      ],
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "selectedModels": [
+        {
+          "encodedId": "deepseek:deepseek-official/deepseek-flash",
+          "provider": "deepseek-official",
+          "providerName": "DeepSeek",
+          "id": "deepseek-flash",
+          "label": "DeepSeek-V4.1-Flash",
+          "reasoning": [
+            {
+              "id": "off",
+              "name": "Off",
+              "description": "Use for simple tasks that do not need reasoning."
+            },
+            {
+              "id": "low",
+              "name": "Low",
+              "description": "Prefer for routine or latency-sensitive tasks."
+            },
+            {
+              "id": "high",
+              "name": "High",
+              "description": "The default balance for most tasks."
+            },
+            {
+              "id": "max",
+              "name": "Max",
+              "description": "Reserve for the hardest quality-first tasks."
+            }
+          ],
+          "available": true
+        },
+        {
+          "encodedId": "deepseek:deepseek-official/deepseek-v4-pro",
+          "provider": "deepseek-official",
+          "providerName": "DeepSeek",
+          "id": "deepseek-v4-pro",
+          "label": "DeepSeek-V4-Pro",
+          "reasoning": [
+            {
+              "id": "off",
+              "name": "Off",
+              "description": "Use for simple tasks that do not need reasoning."
+            },
+            {
+              "id": "low",
+              "name": "Low",
+              "description": "Prefer for routine or latency-sensitive tasks."
+            },
+            {
+              "id": "high",
+              "name": "High",
+              "description": "The default balance for most tasks."
+            },
+            {
+              "id": "max",
+              "name": "Max",
+              "description": "Reserve for the hardest quality-first tasks."
+            }
+          ],
+          "description": "Stronger agentic coding, knowledge, and difficult reasoning; suited to complex or quality-critical tasks at higher cost.",
+          "available": true
+        },
+        {
+          "encodedId": "deepseek:deepseek-account/deepseek-flash",
+          "provider": "deepseek-account",
+          "providerName": "DeepSeek Account",
+          "id": "deepseek-flash",
+          "label": "DeepSeek-V4.1-Flash",
+          "reasoning": [
+            {
+              "id": "off",
+              "name": "Off",
+              "description": "Use for simple tasks that do not need reasoning."
+            },
+            {
+              "id": "low",
+              "name": "Low",
+              "description": "Prefer for routine or latency-sensitive tasks."
+            },
+            {
+              "id": "high",
+              "name": "High",
+              "description": "The default balance for most tasks."
+            },
+            {
+              "id": "max",
+              "name": "Max",
+              "description": "Reserve for the hardest quality-first tasks."
+            }
+          ],
+          "available": true
+        },
+        {
+          "encodedId": "deepseek:deepseek-account/deepseek-v4-pro",
+          "provider": "deepseek-account",
+          "providerName": "DeepSeek Account",
+          "id": "deepseek-v4-pro",
+          "label": "DeepSeek-V4-Pro",
+          "reasoning": [
+            {
+              "id": "off",
+              "name": "Off",
+              "description": "Use for simple tasks that do not need reasoning."
+            },
+            {
+              "id": "low",
+              "name": "Low",
+              "description": "Prefer for routine or latency-sensitive tasks."
+            },
+            {
+              "id": "high",
+              "name": "High",
+              "description": "The default balance for most tasks."
+            },
+            {
+              "id": "max",
+              "name": "Max",
+              "description": "Reserve for the hardest quality-first tasks."
+            }
+          ],
+          "description": "Stronger agentic coding, knowledge, and difficult reasoning; suited to complex or quality-critical tasks at higher cost.",
+          "available": true
+        }
+      ]
+    },
+    "grok": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "sessionEnvironmentHash": "",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "visibleModels": [],
+      "selectedModelsByHost": {}
+    },
+    "opencode": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "thinkingOptionsByModel": {},
+      "visibleModels": [],
+      "selectedModels": []
+    },
+    "pi": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "sessionEnvironmentHash": "",
+      "visibleModels": [],
+      "selectedModels": []
+    }
+  },
+  "settingsProvider": "deepseek",
+  "lastSelectedChatModel": null,
+  "inlineEditModel": null,
+  "savedProviderModel": {},
+  "savedProviderEffort": {},
+  "savedProviderServiceTier": {},
+  "savedProviderPermissionMode": {
+    "claude": "auto",
+    "deepseek": "normal"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "enableAutoScroll": true,
+  "showMessageTimestamps": false,
+  "deferMathRenderingDuringStreaming": true,
+  "pluginRenderedFenceLanguages": [],
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableZenMode": true,
+  "zenModePosition": null,
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "skillsSynced": false,
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
+  "pinnedLinkedContentPaths": [],
+  "hiddenCommands": []
+}
