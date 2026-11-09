@@ -485,7 +485,7 @@
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto",
-    "deepseek": "yolo",
+    "deepseek": "normal",
     "opencode": "normal"
   },
   "pendingProviderSessionInvalidations": {},

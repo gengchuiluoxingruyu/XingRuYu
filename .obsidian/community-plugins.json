@@ -1,23 +1,6 @@
 [
-  "sfb-open-in-new-tab",
-  "obsidian-style-settings",
-  "recent-files-obsidian",
-  "file-explorer-note-count",
   "obsidian-git",
-  "easy-typing-obsidian",
-  "calendar",
   "obsidian-image-auto-upload-plugin",
-  "keyboard-analyzer",
-  "obsidian-version-history-diff",
-  "obsidian-emoji-toolbar",
-  "callout-manager",
-  "code-space",
-  "table-editor-obsidian",
-  "obsidian-hover-editor",
-  "terminal",
-  "obsidian42-brat",
-  "realclaudian",
-  "templater-obsidian",
-  "obsidian-tasks-plugin",
-  "obsidian-latex-suite"
+  "sfb-open-in-new-tab",
+  "obsidian-version-history-diff"
 ]

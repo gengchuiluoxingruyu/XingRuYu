@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
-  "enabledCssSnippets": [
-    "extended-colorschemes"
-  ]
+  "cssTheme": "",
+  "enabledCssSnippets": [],
+  "showRibbon": false,
+  "nativeMenus": false
 }
