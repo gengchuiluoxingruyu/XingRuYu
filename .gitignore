@@ -22,5 +22,3 @@ Thumbs.db
 
 # 忽略垃圾箱文件夹
 .trash/
-# Claudian 会话运行时状态（每台设备独立、随对话高频变动）
-.claudian/sessions/
