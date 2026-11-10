@@ -131,11 +131,210 @@
           ]
         }
       }
+    },
+    "deviceProfiles": {
+      "a614c92c-5678-4da3-a739-fca254a8779a": {
+        "opencode": {
+          "binaryPath": "C:\\Users\\HUAWEI\\.obsidian-copilot\\opencode\\2.0.32\\bin\\opencode.exe",
+          "binaryVersion": "2.0.32",
+          "binarySource": "managed",
+          "probeSessionId": "ses_e3a39d703ffefISwnXf8UkVcFR"
+        }
+      }
     }
   },
-  "providers": {},
-  "configuredModels": [],
-  "backends": {},
+  "providers": {
+    "80d718ea-d504-4485-9811-e99b765a80e9": {
+      "providerType": "openai-compatible",
+      "displayName": "OpenCode",
+      "origin": {
+        "kind": "agent",
+        "agentType": "opencode"
+      },
+      "requiresApiKey": false,
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "addedAt": 1794319460720,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "deepseek/deepseek-v4-pro",
+        "displayName": "deepseek/DeepSeek V4 Pro",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 384000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-24",
+        "cost": {
+          "input": 0.9,
+          "output": 2.7,
+          "cacheRead": 0.03
+        }
+      },
+      "configuredModelId": "034ba361-6372-4b52-bc68-5c4ccd520656",
+      "configuredAt": 1794319463069
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "deepseek/deepseek-flash",
+        "displayName": "deepseek/DeepSeek V4.1 Flash",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 384000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-10",
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cacheRead": 0.003
+        }
+      },
+      "configuredModelId": "cee305ce-6411-49aa-a85e-cbebd52c5b83",
+      "configuredAt": 1794319463070
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "opencode/Big Pickle"
+      },
+      "configuredModelId": "6a917b0d-2bc7-468e-bd9f-322379ea187e",
+      "configuredAt": 1794319463070
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/cat-jam-free",
+        "displayName": "opencode/Cat Jam Free"
+      },
+      "configuredModelId": "745e116a-61c9-4375-a64e-1d1f5de74015",
+      "configuredAt": 1794319463071
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/deepseek-v4.1-flash-free",
+        "displayName": "opencode/DeepSeek V4.1 Flash Free"
+      },
+      "configuredModelId": "599c1158-f8a0-449f-89d7-c0ac053f7fd6",
+      "configuredAt": 1794319463071
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/glm-5.3-flash-free",
+        "displayName": "opencode/GLM-5.3-Flash Free"
+      },
+      "configuredModelId": "5a959de0-3e2a-4141-a61a-47db2dcda11b",
+      "configuredAt": 1794319463071
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/ll-alpha-free",
+        "displayName": "opencode/LL Alpha Free"
+      },
+      "configuredModelId": "a0d8571a-7190-45ed-8a6f-96c25583a5fc",
+      "configuredAt": 1794319463071
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/longcat-2.5-preview-free",
+        "displayName": "opencode/LongCat 2.5 Preview Free"
+      },
+      "configuredModelId": "e7f58d6e-a2e3-444b-a003-3e21e853024a",
+      "configuredAt": 1794319463071
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "opencode/MiMo-V2.6-Flash Free"
+      },
+      "configuredModelId": "c40562d4-b5b2-48be-9a1e-3ff21368f9c4",
+      "configuredAt": 1794319463071
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/muse-spark-1.3-contributor-free",
+        "displayName": "opencode/Muse Spark 1.3 Free"
+      },
+      "configuredModelId": "1cef0c09-dbf5-4cab-aa31-121dbd630308",
+      "configuredAt": 1794319463073
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/nemotron-3-ultra-free",
+        "displayName": "opencode/Nemotron 3 Ultra Free"
+      },
+      "configuredModelId": "3342e79c-4849-4dc2-be01-a8ba3e10a85f",
+      "configuredAt": 1794319463073
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "opencode/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "819310b5-4e0e-4bbe-b112-1afc5051638d",
+      "configuredAt": 1794319463073
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/nemotron-3.5-super-vl-free",
+        "displayName": "opencode/Nemotron 3.5 Super VL Free"
+      },
+      "configuredModelId": "27864303-1237-4ab7-b2ba-fe891e24d667",
+      "configuredAt": 1794319463073
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/space-bunny-free",
+        "displayName": "opencode/Space Bunny Free"
+      },
+      "configuredModelId": "84a4ff9e-b1d8-4615-a8e5-1412727e4af0",
+      "configuredAt": 1794319463073
+    }
+  ],
+  "backends": {
+    "opencode": {
+      "enabledModels": [
+        "034ba361-6372-4b52-bc68-5c4ccd520656",
+        "cee305ce-6411-49aa-a85e-cbebd52c5b83",
+        "6a917b0d-2bc7-468e-bd9f-322379ea187e"
+      ]
+    }
+  },
   "copilotPlusCatalog": {
     "models": [
       {
