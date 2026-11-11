@@ -13,6 +13,9 @@
 .obsidian/facets.json
 .obsidian/starred.json
 
+# --- copilot数据 ---
+copilot/
+
 # --- 系统与临时文件 ---
 .trash/
 Thumbs.db
