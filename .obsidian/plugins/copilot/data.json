@@ -32,7 +32,7 @@
   "autosaveChat": true,
   "autoAttachActiveNote": true,
   "defaultOpenArea": "view",
-  "defaultSendShortcut": "enter",
+  "defaultSendShortcut": "shift+enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
   "qaExclusions": "copilot",
   "qaInclusions": "",
@@ -57,7 +57,7 @@
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
   "enableSelfHostMode": false,
-  "enableMiyo": false,
+  "enableMiyo": true,
   "enableMiyoSearchSkill": true,
   "miyoSearchAll": false,
   "miyoExtraSearchFolders": [],
@@ -90,6 +90,7 @@
   "enableRecentConversations": true,
   "maxRecentConversations": 30,
   "enableSavedMemory": true,
+  "quickCommandModelKey": "6dc1aac5-efaf-4eb8-b6f3-6e65d8e3948b",
   "quickCommandIncludeNoteContext": true,
   "autoAcceptEdits": false,
   "diffViewMode": "split",
@@ -100,7 +101,15 @@
   "agentMode": {
     "byok": {},
     "activeBackend": "opencode",
-    "backends": {},
+    "backends": {
+      "opencode": {
+        "defaultModel": {
+          "baseModelId": "deepseek/deepseek-flash",
+          "effort": "high"
+        },
+        "defaultMode": "default"
+      }
+    },
     "debugFullFrames": true,
     "offerFeedbackCards": true,
     "notificationSound": true,
@@ -114,23 +123,260 @@
         "copilot-web-fetch": {
           "disabled": true
         },
+        "copilot-youtube-transcript": {
+          "disabledAgents": [
+            "opencode"
+          ]
+        },
+        "copilot-fetch-x": {
+          "disabledAgents": [
+            "opencode"
+          ]
+        },
+        "obsidian-markdown": {
+          "disabledAgents": [
+            "opencode"
+          ]
+        },
         "obsidian-bases": {
           "disabledAgents": [
-            "claude"
+            "claude",
+            "opencode"
           ]
         },
         "json-canvas": {
           "disabledAgents": [
             "claude",
-            "codex"
+            "codex",
+            "opencode"
           ]
+        }
+      }
+    },
+    "deviceProfiles": {
+      "a614c92c-5678-4da3-a739-fca254a8779a": {
+        "opencode": {
+          "binaryPath": "C:\\Users\\HUAWEI\\AppData\\Roaming\\npm\\node_modules\\@opencode\\cli\\bin\\opencode.exe",
+          "binaryVersion": "2.2.7",
+          "binarySource": "custom",
+          "probeSessionId": "ses_e352ab9e3ffeF0pYjC1uxwcpUN"
         }
       }
     }
   },
-  "providers": {},
-  "configuredModels": [],
-  "backends": {},
+  "providers": {
+    "c984245e-8720-478f-b798-0fc40e927a7e": {
+      "providerType": "openai-compatible",
+      "displayName": "OpenCode",
+      "origin": {
+        "kind": "agent",
+        "agentType": "opencode"
+      },
+      "requiresApiKey": false,
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "addedAt": 1794382990494,
+      "apiKeyKeychainId": null
+    },
+    "4dc3d297-455b-415b-bc65-24dc030dfbe4": {
+      "providerType": "openai-compatible",
+      "displayName": "DeepSeek",
+      "baseUrl": "https://api.deepseek.com",
+      "enableCors": false,
+      "requiresApiKey": true,
+      "origin": {
+        "kind": "byok",
+        "catalogProviderId": "deepseek"
+      },
+      "providerId": "4dc3d297-455b-415b-bc65-24dc030dfbe4",
+      "addedAt": 1794401720102,
+      "apiKeyKeychainId": "copilot-va7b97c00-provider-deepseek-api-key"
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/beam-free",
+        "displayName": "opencode/Beam Free"
+      },
+      "configuredModelId": "5c39dad0-c27f-4a9d-b525-250ada8cbc6f",
+      "configuredAt": 1794382990497
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "opencode/Big Pickle"
+      },
+      "configuredModelId": "968ffcb8-fe79-4dc0-a598-59b44f6fa675",
+      "configuredAt": 1794382990497
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/deepseek-v4.1-flash-free",
+        "displayName": "opencode/DeepSeek V4.1 Flash Free"
+      },
+      "configuredModelId": "0102db5a-ec93-4866-b63d-bfff8590c7e6",
+      "configuredAt": 1794382990499
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/flint-40b-free",
+        "displayName": "opencode/Flint 40B Free"
+      },
+      "configuredModelId": "1d87bcc7-9106-4405-bc79-4f0c78519fa2",
+      "configuredAt": 1794382990499
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/glm-5.3-flash-free",
+        "displayName": "opencode/GLM-5.3-Flash Free"
+      },
+      "configuredModelId": "085ce48b-15ab-40be-93be-a29a4ed69dae",
+      "configuredAt": 1794382990499
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
+      },
+      "configuredModelId": "538ea9df-3f75-48c3-bee9-de6b3c079b30",
+      "configuredAt": 1794382990499
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/inkling-2-small-free",
+        "displayName": "opencode/Inkling 2 Small Free"
+      },
+      "configuredModelId": "1826a38e-fc1c-4403-a92b-120e8c835a28",
+      "configuredAt": 1794382990499
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/longcat-2.5-free",
+        "displayName": "opencode/LongCat 2.5 Free"
+      },
+      "configuredModelId": "849c901b-f76d-41e7-8d73-0df7cfe2ee2a",
+      "configuredAt": 1794382990500
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "opencode/MiMo-V2.6-Flash Free"
+      },
+      "configuredModelId": "9b8d8a5c-874a-476b-a04c-f062ab1eb5ae",
+      "configuredAt": 1794382990500
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "f9faca92-4f41-4b4f-8be3-2513521aab64",
+      "configuredAt": 1794382990500
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "opencode/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "1cf7e7e9-32af-4630-8fce-3a0e3412400b",
+      "configuredAt": 1794382990500
+    },
+    {
+      "providerId": "c984245e-8720-478f-b798-0fc40e927a7e",
+      "info": {
+        "id": "opencode/nemotron-3.5-super-vl-free",
+        "displayName": "opencode/Nemotron 3.5 Super VL Free"
+      },
+      "configuredModelId": "2bff4bec-f0c4-4fa3-9a52-692b3776b12c",
+      "configuredAt": 1794382990500
+    },
+    {
+      "configuredModelId": "858abe6c-fdd9-41d3-87da-b85c5539e692",
+      "providerId": "4dc3d297-455b-415b-bc65-24dc030dfbe4",
+      "info": {
+        "id": "deepseek-flash",
+        "displayName": "DeepSeek V4.1 Flash 1017",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 393216
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-10-17",
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cacheRead": 0.003
+        }
+      },
+      "configuredAt": 1794401720105
+    },
+    {
+      "configuredModelId": "1dabb0c3-0356-488a-afb3-837589e97105",
+      "providerId": "4dc3d297-455b-415b-bc65-24dc030dfbe4",
+      "info": {
+        "id": "deepseek-v4-pro",
+        "displayName": "DeepSeek V4 Pro",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 393216
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-13",
+        "cost": {
+          "input": 0.66,
+          "output": 1.98,
+          "cacheRead": 0.022
+        }
+      },
+      "configuredAt": 1794401720105
+    }
+  ],
+  "backends": {
+    "chat": {
+      "enabledModels": [
+        "858abe6c-fdd9-41d3-87da-b85c5539e692",
+        "1dabb0c3-0356-488a-afb3-837589e97105"
+      ]
+    },
+    "opencode": {
+      "enabledModels": [
+        "5c39dad0-c27f-4a9d-b525-250ada8cbc6f",
+        "968ffcb8-fe79-4dc0-a598-59b44f6fa675",
+        "858abe6c-fdd9-41d3-87da-b85c5539e692",
+        "1dabb0c3-0356-488a-afb3-837589e97105"
+      ]
+    }
+  },
   "copilotPlusCatalog": {
     "models": [
       {
