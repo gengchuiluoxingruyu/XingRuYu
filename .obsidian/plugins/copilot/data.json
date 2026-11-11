@@ -100,7 +100,14 @@
   "agentMode": {
     "byok": {},
     "activeBackend": "opencode",
-    "backends": {},
+    "backends": {
+      "opencode": {
+        "defaultModel": {
+          "baseModelId": "deepseek/deepseek-flash",
+          "effort": "high"
+        }
+      }
+    },
     "debugFullFrames": true,
     "offerFeedbackCards": true,
     "notificationSound": true,
@@ -135,9 +142,6 @@
     "deviceProfiles": {
       "a614c92c-5678-4da3-a739-fca254a8779a": {
         "opencode": {
-          "binaryPath": "C:\\Users\\HUAWEI\\.obsidian-copilot\\opencode\\2.0.32\\bin\\opencode.exe",
-          "binaryVersion": "2.0.32",
-          "binarySource": "managed",
           "probeSessionId": "ses_e3a39d703ffefISwnXf8UkVcFR"
         }
       }
@@ -191,7 +195,7 @@
       "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
       "info": {
         "id": "deepseek/deepseek-flash",
-        "displayName": "deepseek/DeepSeek V4.1 Flash",
+        "displayName": "deepseek/DeepSeek V4.1 Flash 1017",
         "modalities": {
           "input": [
             "text",
@@ -229,15 +233,6 @@
     {
       "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
       "info": {
-        "id": "opencode/cat-jam-free",
-        "displayName": "opencode/Cat Jam Free"
-      },
-      "configuredModelId": "745e116a-61c9-4375-a64e-1d1f5de74015",
-      "configuredAt": 1794319463071
-    },
-    {
-      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
-      "info": {
         "id": "opencode/deepseek-v4.1-flash-free",
         "displayName": "opencode/DeepSeek V4.1 Flash Free"
       },
@@ -256,47 +251,11 @@
     {
       "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
       "info": {
-        "id": "opencode/ll-alpha-free",
-        "displayName": "opencode/LL Alpha Free"
-      },
-      "configuredModelId": "a0d8571a-7190-45ed-8a6f-96c25583a5fc",
-      "configuredAt": 1794319463071
-    },
-    {
-      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
-      "info": {
-        "id": "opencode/longcat-2.5-preview-free",
-        "displayName": "opencode/LongCat 2.5 Preview Free"
-      },
-      "configuredModelId": "e7f58d6e-a2e3-444b-a003-3e21e853024a",
-      "configuredAt": 1794319463071
-    },
-    {
-      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
-      "info": {
         "id": "opencode/mimo-v2.6-flash-free",
         "displayName": "opencode/MiMo-V2.6-Flash Free"
       },
       "configuredModelId": "c40562d4-b5b2-48be-9a1e-3ff21368f9c4",
       "configuredAt": 1794319463071
-    },
-    {
-      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
-      "info": {
-        "id": "opencode/muse-spark-1.3-contributor-free",
-        "displayName": "opencode/Muse Spark 1.3 Free"
-      },
-      "configuredModelId": "1cef0c09-dbf5-4cab-aa31-121dbd630308",
-      "configuredAt": 1794319463073
-    },
-    {
-      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
-      "info": {
-        "id": "opencode/nemotron-3-ultra-free",
-        "displayName": "opencode/Nemotron 3 Ultra Free"
-      },
-      "configuredModelId": "3342e79c-4849-4dc2-be01-a8ba3e10a85f",
-      "configuredAt": 1794319463073
     },
     {
       "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
@@ -319,19 +278,63 @@
     {
       "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
       "info": {
-        "id": "opencode/space-bunny-free",
-        "displayName": "opencode/Space Bunny Free"
+        "id": "opencode/beam-free",
+        "displayName": "opencode/Beam Free"
       },
-      "configuredModelId": "84a4ff9e-b1d8-4615-a8e5-1412727e4af0",
-      "configuredAt": 1794319463073
+      "configuredModelId": "255fea33-aae3-4db9-b94f-9bcf54137375",
+      "configuredAt": 1794325350204
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/flint-40b-free",
+        "displayName": "opencode/Flint 40B Free"
+      },
+      "configuredModelId": "bd47af5d-57b0-42e0-a537-74349dd34276",
+      "configuredAt": 1794325350205
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
+      },
+      "configuredModelId": "af36feaa-5ef9-4ad0-b920-0b3e6a37282c",
+      "configuredAt": 1794325350205
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/inkling-2-small-free",
+        "displayName": "opencode/Inkling 2 Small Free"
+      },
+      "configuredModelId": "5f10098d-f50f-46b3-b534-3a8e45a8ad51",
+      "configuredAt": 1794325350205
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/longcat-2.5-free",
+        "displayName": "opencode/LongCat 2.5 Free"
+      },
+      "configuredModelId": "0d9075fd-2488-4449-be95-8af27a59a52a",
+      "configuredAt": 1794325350205
+    },
+    {
+      "providerId": "80d718ea-d504-4485-9811-e99b765a80e9",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "5c5e839b-d526-4abe-b980-24106d3c59dd",
+      "configuredAt": 1794325350205
     }
   ],
   "backends": {
     "opencode": {
       "enabledModels": [
         "034ba361-6372-4b52-bc68-5c4ccd520656",
-        "cee305ce-6411-49aa-a85e-cbebd52c5b83",
-        "6a917b0d-2bc7-468e-bd9f-322379ea187e"
+        "cee305ce-6411-49aa-a85e-cbebd52c5b83"
       ]
     }
   },
