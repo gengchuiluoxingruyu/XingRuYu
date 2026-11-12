@@ -1,0 +1,10 @@
+{
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inboxes",
+  "attachmentFolderPath": "/",
+  "showUnsupportedFiles": true
+}
