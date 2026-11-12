@@ -3,8 +3,8 @@
   "showLineNumber": true,
   "livePreview": true,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "root",
-  "newFileFolderPath": "",
-  "attachmentFolderPath": "Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inboxes",
+  "attachmentFolderPath": "/",
   "showUnsupportedFiles": true
 }
