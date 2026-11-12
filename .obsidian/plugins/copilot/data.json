@@ -117,34 +117,21 @@
     "skills": {
       "folder": "copilot/skills",
       "builtinPreferences": {
-        "copilot-web-search": {
-          "disabled": true
-        },
-        "copilot-web-fetch": {
-          "disabled": true
-        },
-        "copilot-youtube-transcript": {
-          "disabledAgents": [
-            "opencode"
-          ]
-        },
-        "copilot-fetch-x": {
-          "disabledAgents": [
-            "opencode"
-          ]
-        },
         "obsidian-markdown": {
+          "disabled": true,
           "disabledAgents": [
             "opencode"
           ]
         },
         "obsidian-bases": {
+          "disabled": true,
           "disabledAgents": [
             "claude",
             "opencode"
           ]
         },
         "json-canvas": {
+          "disabled": true,
           "disabledAgents": [
             "claude",
             "codex",
