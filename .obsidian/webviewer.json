@@ -2,5 +2,6 @@
   "openExternalURLs": true,
   "enableAdblocking": true,
   "markdownPath": "",
-  "searchEngine": "bing"
+  "searchEngine": "bing",
+  "homepage": "https://obsidian.md/zh/help/"
 }
