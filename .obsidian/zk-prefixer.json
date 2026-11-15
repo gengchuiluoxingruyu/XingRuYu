@@ -1,0 +1,5 @@
+{
+  "folder": "Timestamp",
+  "template": "Templates/Timestamp.md",
+  "format": "YYYY-MM-DD"
+}

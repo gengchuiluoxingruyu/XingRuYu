@@ -1,9 +1,8 @@
 ---
 type:
 weather:
-status: 修稿中
 tags:
-  - daily-note
+  - daily
 ---
 # {{title}}
 
