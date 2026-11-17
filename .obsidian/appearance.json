@@ -3,5 +3,6 @@
   "cssTheme": "",
   "enabledCssSnippets": [],
   "showRibbon": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "accentColor": "#6a48bc"
 }
