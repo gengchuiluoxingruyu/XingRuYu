@@ -19,7 +19,7 @@ tags:
 | 对象 | 规则 | 例子 |
 | --- | --- | --- |
 | 目录 | 英文、大驼峰、单个单词 | `Regulation/` `Template/` `Cache/` |
-| 笔记文件 | 英文、大驼峰、一到三个单词 | `GitCommit.md` `PropertyGuide.md` |
+| 笔记文件 | 英文、大驼峰、一到三个单词 | `Git.md` `PropertyGuide.md` |
 | 属性名 | 英文小写、下划线连接 | `focus_hours`（见 [[Properties]]） |
 | 标签名 | 英文小写、单词优先 | `daily`（见 [[Tags]]） |
 | 日记文件 | `YYYY-MM-DD.md` | `2026-11-16.md` |
@@ -27,9 +27,9 @@ tags:
 ## 2. 逐条要求
 
 - **用英文，不用中文**：目录名、新建的笔记文件名一律英文
-- **大驼峰**：每个单词首字母大写，词间不加下划线、连字符、空格：`GitCommit`，不是 `git_commit`、`git-commit`
+- **大驼峰**：每个单词首字母大写，词间不加下划线、连字符、空格：`PropertyGuide`，不是 `property_guide`、`property-guide`
 - **目录一个单词**：`Regulation`、`Template`，不写 `RegulationDocs`
-- **文件一到三个单词**：`Tags.md`、`PropertyGuide.md`、`GitCommit.md`；超过三个词说明该拆成目录或改短
+- **文件一到三个单词**：`Tags.md`、`PropertyGuide.md`、`FileSearch.md`；超过三个词说明该拆成目录或改短
 - **不带日期前缀**：除日记外，文件名不写日期，日期归 `created` 属性
 - **不带版本号**：`xxx-v2.md` 不是新版本，是重复内容
 
