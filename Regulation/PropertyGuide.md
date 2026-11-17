@@ -57,7 +57,7 @@ tags:
 > - `type: Clippings`：大小写、复数都不对，枚举只有表里那 5 个值
 > - `type: 剪藏`：不接受中文
 > - 用 `#clippings` 标签代替：标签说主题，`type` 说类别，不能互换
-> - 自创 `book`、`project`：先登记到 [[Properties]] 第 4 节
+> - 自创 `book`、`project`：先登记到 [[Properties]]「笔记类型」节
 
 ---
 
@@ -207,7 +207,7 @@ tags:
 
 **是什么**：预留的效率评分字段，**当前未启用**，值域与算法都还没定。
 
-**怎么写**：不要写。`.obsidian/types.json` 里保留着 number 类型注册，是为了将来启用时不用改配置；真要用之前，先到 [[Properties]] 第 5 节登记值域和口径。
+**怎么写**：不要写。`.obsidian/types.json` 里保留着 number 类型注册，是为了将来启用时不用改配置；真要用之前，先到 [[Properties]]「字段表」登记值域和口径。
 
 > [!warning] 别这么写
 > - 按自己理解填个百分数：没有统一口径，横向比较无意义
@@ -337,7 +337,7 @@ tags:
 
 以下字段由早已卸载的插件写入过 `.obsidian/types.json`，2026-11-16 确认全库无笔记使用后已移除，不要再写：`rating`、`series_index`、`calibre_id`、`date_from`、`date_to`、`week`、`year`、`day`、`unit`、`date_started`、`date_finished`、`date_added`、`priority`、`mood`、`TQ_*`。
 
-需要书籍类字段（评分、册序等）时，先到 [[Properties]] 第 5 节登记新方案，再启用。
+需要书籍类字段（评分、册序等）时，先到 [[Properties]]「字段表」登记新方案，再启用。
 
 ---
 
@@ -355,4 +355,4 @@ tags:
 - [ ] 没有 `key:` 这样留空的键
 - [ ] `type` 在 5 个枚举值内
 - [ ] wikilink 已加引号
-- [ ] 新字段已在 [[Properties]] 第 5 节登记
+- [ ] 新字段已在 [[Properties]]「字段表」登记
