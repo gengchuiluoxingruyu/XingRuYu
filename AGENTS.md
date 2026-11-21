@@ -17,7 +17,7 @@
 
 - 目录：英文、大驼峰、单个单词——`Wiki/`、`Template/`、`Cache/`。
 - 笔记文件：英文、大驼峰、一到三个单词——`Git.md`、`PropertyGuide.md`；不带日期前缀，不带版本号。
-- 属性名全小写、多词用下划线（`focus_hours`）；标签名小写单词优先（`daily`），不用连字符、下划线拼长词。
+- 属性名与标签名同一套写法：全小写、多词用下划线（`focus_hours`、`second_brain`），不用连字符、空格、大驼峰。
 - 既有例外：日记 `Log/DailyLogs/YYYY-MM/YYYY-MM-DD.md`；`Row/` 剪藏沿用原文标题，可含中文；`AGENTS.md`、`README.md`、`LICENSE` 保持固定写法。
 - 改名必须在 Obsidian 里重命名，链接才会同步；在文件管理器里改会留下断链。
 

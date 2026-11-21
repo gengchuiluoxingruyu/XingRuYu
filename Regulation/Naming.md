@@ -21,7 +21,7 @@ tags:
 | 目录 | 英文、大驼峰、单个单词 | `Regulation/` `Template/` `Cache/` |
 | 笔记文件 | 英文、大驼峰、一到三个单词 | `Git.md` `PropertyGuide.md` |
 | 属性名 | 英文小写、下划线连接 | `focus_hours`（见 [[Properties]]） |
-| 标签名 | 英文小写、单词优先 | `daily`（见 [[Tags]]） |
+| 标签名 | 英文小写、下划线连接 | `daily` `second_brain`（见 [[Tags]]） |
 | 日记文件 | `YYYY-MM-DD.md` | `2026-11-16.md` |
 
 ## 逐条要求
